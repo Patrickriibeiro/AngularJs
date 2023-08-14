@@ -75,3 +75,9 @@ angular.module("meuModulo")
 
 
     })
+
+    .controller("contatoController",function($scope){
+         $scope.titulo = "Contato";
+    });
+
+    
